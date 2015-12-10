@@ -1,0 +1,61 @@
+body {
+	font-family: 'Arial','Dancing Script', cursive;
+	background-color: #F0B0C8;
+	text-align: center;
+}
+
+
+
+.container{
+	width: 100%;
+	height: auto;
+	border-left: 50px solid #E7588E;
+	border-right: 50px solid #E7588E;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	text-align: center;
+}
+.row{
+	background-color: white;
+	margin:0;
+}
+
+h1{
+	font-size: 80px;
+	font-family: 'Dancing Script', cursive;
+}
+h2 {
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;
+}
+
+p, li{
+	color: #E7588E;
+}
+
+.profile {
+	text-align: left;
+	padding: 10px;
+}
+
+.work {
+	text-align: left;
+	padding: 10px;
+	background-color:#EB9FBB;
+}
+
+.education{
+	text-align: left;
+	padding: 10px;
+}
+
+i {
+	color: #E7588E;
+}
+
+.footer{
+	clear: both;
+}
