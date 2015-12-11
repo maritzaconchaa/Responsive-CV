@@ -35,6 +35,10 @@ h2 {
 p, li{
 	color: #E7588E;
 }
+a, a:link, a:hover, a:visited {
+	text-decoration: none !important;
+	color: white;
+}
 
 .profile {
 	text-align: left;
@@ -56,6 +60,18 @@ i {
 	color: #E7588E;
 }
 
+
+
 .footer{
 	clear: both;
+}
+
+@media (max-width: 500px) {
+  h4 {
+    font-size : 15px;
+  }
+  .container{
+  	border-left: 25px solid #E7588E;
+  	border-right: 25px solid #E7588E;
+  }
 }
